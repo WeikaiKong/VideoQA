@@ -228,3 +228,41 @@ https://arxiv.org/pdf/1511.04670v1.pdf
 
 **Video Background Music Generation with Controllable Music Transformer** - Shangzhe Di et al, **ACM MM 2021**
 
+
+
+# SOTA till 2022 
+
+**Notes:**
+
+(Arxiv "#") 
+
+(Other modality marked as "Acou" or "Sub" or "Lan")
+
+YT-T: Youtube-Temporal-180M [Zellers et al., 2021]
+
+CC: Conceptual Captions-3M [Sharma et al., 2018]
+
+Web: WebVid2.5M [Bain et al., 2021]
+
+| Method Title                             | Insights & Methods | Video Encoder   | Text(Question) Encoder | CM-PT       | MSVD                 | MSRVTT      | OD#1               | OD#2 | OD3  |
+| ---------------------------------------- | ------------------ | --------------- | ---------------------- | ----------- | -------------------- | ----------- | ------------------ | ---- | ---- |
+| **HME**[Fan et al., 2019]                | Mem                | RN, VGG, C3D    | GV                     | \           | 33.7                 | 33.0        |                    |      |      |
+| **DualVGR**[Wang et al., 2021]           | GNN                | RN, RX(3D)      | GV                     | \           | 39.0                 | 35.5        |                    |      |      |
+| **PGAT**[Peng et al., 2021]              | GNN, MG, HL        | RN, RX(3D), RoI | GV                     | \           | 39.0                 | 38.1        |                    |      |      |
+| **HQGA**[Xiao et al., 2022]              | MN, GNN, HL, MG    | RN, RX(3D), RoI | BT                     | \           | **41.2**             | **38.6**    | **NExT -QA: 51.8** |      |      |
+| **MERLOT**[Zellers et al., 2021]         | TF                 | ViT(E2E)        | BT                     | YT-T&CC     | \                    | **43.1**    |                    |      |      |
+| Just Ask(VQA-T)[Yang et al., 2021]       | TF                 | S3D ？          | BT                     | H2VQA69M    | 46.3                 | 41.5        |                    |      |      |
+| ALPRO[Li et al,. 2022]                   | TF                 |                 |                        |             | 45.9 (**46.3** best) | **42.1**    |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+| **#** **VIOLET**[Fu et al., 2021]        | TF                 | VSwin (E2E)     | BT                     | Web&YT-T&CC | [47.9]               | [43.9]      |                    |      |      |
+| # Singularity-temporal[Lei et al,. 2022] | TF                 |                 |                        |             |                      | [43.9]      |                    |      |      |
+| **#** **All in One**[Wang et al., 2022]  | TF                 |                 |                        |             | 47.9 (1.6↑)          | 44.3 (1.2↑) |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+|                                          |                    |                 |                        |             |                      |             |                    |      |      |
+| **Their Backbone +IGV**                  |                    |                 |                        |             | 40.8                 | 38.3        |                    |      |      |
+
